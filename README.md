@@ -22,6 +22,7 @@
 
 ## 素材归档
 
+- [全部生成源图索引与补充历史稿](assets/source-archive/README.md)。
 - [首套九宫格概念图](assets/concepts/首套九宫格概念图.png)：生成的表情方向展示，非用户原始多视角原型稿，也非可直接提交的单品。
 - [歪头疑问源素材及制作脚本](assets/question-tilt/)。
 - [仰天大吼初稿](assets/sky-roar/)。

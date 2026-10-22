@@ -1,0 +1,41 @@
+{
+  "description": "本次表情项目生成的全部源图索引；相同内容复用已归档文件。",
+  "images": [
+    {
+      "source_filename": "exec-14a84620-d4f3-4ff9-a380-096f7d09eb31.png",
+      "repository_file": "assets/question-tilt/keyframes.png",
+      "bytes": 2317305,
+      "sha256": "b936c99b5f05584623f9ed81bf044d1bc7e59f0a043bb8c59f2208108442bd01"
+    },
+    {
+      "source_filename": "exec-2562cf08-b9d6-4f39-9725-e6cb3927bdb0.png",
+      "repository_file": "assets/sky-roar-charge/keyframes.png",
+      "bytes": 2060283,
+      "sha256": "4ac902876044a7d57fd5858349d4e57a7c2b77e5e331b6d2db92e37f8bda1cea"
+    },
+    {
+      "source_filename": "exec-4c80b523-ccb1-4fa7-81cc-df7d2588db12.png",
+      "repository_file": "assets/sky-roar-sideguard/keyframes.png",
+      "bytes": 2007140,
+      "sha256": "8e8d0e2e987b0fa253d1536684f014f162b0514bcdb04c99ce95dacca59d9524"
+    },
+    {
+      "source_filename": "exec-8abf722d-c870-4d4b-a29d-a85289660995.png",
+      "repository_file": "assets/concepts/首套九宫格概念图.png",
+      "bytes": 2099833,
+      "sha256": "1f0e71a00557ee6a7e1296550fd63cc5b933fbdc8e2702e55b91c1a470002bf3"
+    },
+    {
+      "source_filename": "exec-9dbd6b89-eeda-416b-9966-f73cea7378bc.png",
+      "repository_file": "assets/source-archive/蓄力怒吼-早期六格关键帧.png",
+      "bytes": 1879760,
+      "sha256": "08fa864fb75a9b85209f52392a2a547d6a257ebbfd316653ac58005c82494b4b"
+    },
+    {
+      "source_filename": "exec-dc5258ec-8f8f-4f3d-a18e-c734bbb22f69.png",
+      "repository_file": "assets/sky-roar/keyframes.png",
+      "bytes": 2135599,
+      "sha256": "0cb46ff862e9de07d30c543a4a7321c9eeceaab5e26b9f6231f11ee7d7df05fb"
+    }
+  ]
+}
