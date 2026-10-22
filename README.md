@@ -49,3 +49,7 @@ python assets/sky-roar-sideguard/build_gif.py
 ## 已确认配套素材
 
 [详情页横幅、个人主页横幅、聊天页图标及封面](exports/README.md#已确认专辑及个人主页素材)，包含上传用文件和高清源图。
+
+## 第二版 18 款已确认静态表情
+
+[查看 V2.0 独立图片、标签及下载包](releases/v2.0/README.md)。2026-10-22 用户确认，两组无文字表情，独立保存。

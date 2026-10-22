@@ -1,0 +1,423 @@
+{
+  "project": "我的刀盾",
+  "version": "2.0",
+  "status": "approved",
+  "no_caption_text": true,
+  "selected_departure_pose": "第一稿抱盾小跑，未采用踩盾滑行修订",
+  "stickers": [
+    {
+      "id": "01",
+      "name": "抱抱",
+      "meaning": "抱抱",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 1,
+      "file": "stickers/01-抱抱.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 78322,
+      "source": "第二版-日常社交-无字九宫格.png",
+      "crop_region": [
+        0,
+        0,
+        437,
+        380
+      ],
+      "sha256": "46ace369468446cc5bece66cb8eb088f1044a565b8c910d1cefd9b5c5d6be4a5"
+    },
+    {
+      "id": "02",
+      "name": "拜托",
+      "meaning": "拜托",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 1,
+      "file": "stickers/02-拜托.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 71320,
+      "source": "第二版-日常社交-无字九宫格.png",
+      "crop_region": [
+        437,
+        0,
+        875,
+        380
+      ],
+      "sha256": "5b3a7d0424c442778d1facb0ff12b1369fcb21b467e14f54418968e2638de6b4"
+    },
+    {
+      "id": "03",
+      "name": "对不起",
+      "meaning": "对不起",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 1,
+      "file": "stickers/03-对不起.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 71978,
+      "source": "第二版-日常社交-无字九宫格.png",
+      "crop_region": [
+        875,
+        0,
+        1312,
+        380
+      ],
+      "sha256": "5c63d8814487efe56cf0a5c2fe9887647fc2f82ccfb8ad1c5236d95fcc5c429a"
+    },
+    {
+      "id": "04",
+      "name": "吃瓜",
+      "meaning": "吃瓜",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 1,
+      "file": "stickers/04-吃瓜.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 84148,
+      "source": "第二版-日常社交-无字九宫格.png",
+      "crop_region": [
+        0,
+        380,
+        437,
+        740
+      ],
+      "sha256": "7cf37d1da87d400b21404aba648d612dab270ca21fc27c31f702913f97704fc0"
+    },
+    {
+      "id": "05",
+      "name": "摸鱼",
+      "meaning": "摸鱼",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 1,
+      "file": "stickers/05-摸鱼.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 83503,
+      "source": "第二版-日常社交-无字九宫格.png",
+      "crop_region": [
+        437,
+        380,
+        875,
+        740
+      ],
+      "sha256": "b30135dbb73a55b2c322988c0ad1c290fafaf553a48ab76a9717d20e7277cf8c"
+    },
+    {
+      "id": "06",
+      "name": "溜了",
+      "meaning": "溜了",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 1,
+      "file": "stickers/06-溜了.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 82255,
+      "source": "第二版-日常社交-无字九宫格.png",
+      "crop_region": [
+        875,
+        380,
+        1312,
+        740
+      ],
+      "sha256": "0fcaf78df570ef29a57c9edfa24e9d204019ee2a48c7a27358db5382672ded1c"
+    },
+    {
+      "id": "07",
+      "name": "自闭",
+      "meaning": "自闭",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 1,
+      "file": "stickers/07-自闭.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 59634,
+      "source": "第二版-日常社交-无字九宫格.png",
+      "crop_region": [
+        0,
+        740,
+        490,
+        1199
+      ],
+      "sha256": "f423b035b5e8ef36be2580b49dab5488775a707b89b73e9df41bf7f6b07e5b7b"
+    },
+    {
+      "id": "08",
+      "name": "拿捏",
+      "meaning": "拿捏",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 1,
+      "file": "stickers/08-拿捏.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 72240,
+      "source": "第二版-日常社交-无字九宫格.png",
+      "crop_region": [
+        490,
+        740,
+        875,
+        1199
+      ],
+      "sha256": "e5827deec1d6a1f4fa3f3a5d9c12db942b6e064206009b483aa0f2ccc591dc77"
+    },
+    {
+      "id": "09",
+      "name": "好耶",
+      "meaning": "好耶",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 1,
+      "file": "stickers/09-好耶.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 74306,
+      "source": "第二版-日常社交-无字九宫格.png",
+      "crop_region": [
+        875,
+        740,
+        1312,
+        1199
+      ],
+      "sha256": "7a03cb726845e2be27b28a8f6de11d31a06324e8c071146cde025ba1470a1363"
+    },
+    {
+      "id": "10",
+      "name": "点赞",
+      "meaning": "点赞",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 2,
+      "file": "stickers/10-点赞.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 72434,
+      "source": "第二版-第二组-无字九宫格.png",
+      "crop_region": [
+        0,
+        0,
+        437,
+        380
+      ],
+      "sha256": "05bd36d9d6f32d7ebdd713d4cc68208047acd0e23b59a9af65af9e4d7f9ea331"
+    },
+    {
+      "id": "11",
+      "name": "拒绝",
+      "meaning": "拒绝",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 2,
+      "file": "stickers/11-拒绝.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 68890,
+      "source": "第二版-第二组-无字九宫格.png",
+      "crop_region": [
+        437,
+        0,
+        875,
+        380
+      ],
+      "sha256": "9d8578f35f218f2ec416367506e2e716be0c75aca6ff700a6ee55eefb4b25da7"
+    },
+    {
+      "id": "12",
+      "name": "惊喜",
+      "meaning": "惊喜",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 2,
+      "file": "stickers/12-惊喜.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 67462,
+      "source": "第二版-第二组-无字九宫格.png",
+      "crop_region": [
+        875,
+        0,
+        1312,
+        380
+      ],
+      "sha256": "b73187894498bc6aaba4d137ae7950bd478bc55702c50b2554d44f07bee04be5"
+    },
+    {
+      "id": "13",
+      "name": "馋了",
+      "meaning": "馋了",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 2,
+      "file": "stickers/13-馋了.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 78915,
+      "source": "第二版-第二组-无字九宫格.png",
+      "crop_region": [
+        0,
+        380,
+        437,
+        740
+      ],
+      "sha256": "e239b9c91d2f9d9bdd28acbe76c45aa39d4280e6ae4ddcf2c43480506846c54a"
+    },
+    {
+      "id": "14",
+      "name": "怕冷",
+      "meaning": "怕冷",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 2,
+      "file": "stickers/14-怕冷.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 78803,
+      "source": "第二版-第二组-无字九宫格.png",
+      "crop_region": [
+        437,
+        380,
+        875,
+        740
+      ],
+      "sha256": "c6064102948ca75b10e9fc0dbb7e2042ac3eff7a645cee52138b7106d1004670"
+    },
+    {
+      "id": "15",
+      "name": "怕热",
+      "meaning": "怕热",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 2,
+      "file": "stickers/15-怕热.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 72260,
+      "source": "第二版-第二组-无字九宫格.png",
+      "crop_region": [
+        875,
+        380,
+        1312,
+        740
+      ],
+      "sha256": "19080fcdf8c9bac8eca61c4d6e9f175b003e7e32d0f32d22d9ebe03d0ecbe790"
+    },
+    {
+      "id": "16",
+      "name": "嘘",
+      "meaning": "嘘",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 2,
+      "file": "stickers/16-嘘.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 72776,
+      "source": "第二版-第二组-无字九宫格.png",
+      "crop_region": [
+        0,
+        740,
+        437,
+        1199
+      ],
+      "sha256": "994ad49c5d7efd38c3d2c1033cff73cbc9058c1173a9e87cd734cadc4187fc65"
+    },
+    {
+      "id": "17",
+      "name": "敬礼",
+      "meaning": "敬礼",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 2,
+      "file": "stickers/17-敬礼.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 79669,
+      "source": "第二版-第二组-无字九宫格.png",
+      "crop_region": [
+        437,
+        740,
+        830,
+        1199
+      ],
+      "sha256": "ca956394e4e4012a3ac6e0061ced621669551c545cbad80180d24b8ba6475357"
+    },
+    {
+      "id": "18",
+      "name": "摔倒",
+      "meaning": "摔倒",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "group": 2,
+      "file": "stickers/18-摔倒.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 59332,
+      "source": "第二版-第二组-无字九宫格.png",
+      "crop_region": [
+        830,
+        740,
+        1312,
+        1199
+      ],
+      "sha256": "3ea2b0bd1d935059cd8f9288cc740181fd7f9421d4deb86ca169c2045ec59d73"
+    }
+  ]
+}
