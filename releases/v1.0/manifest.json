@@ -22,7 +22,39 @@
       "final_hold_ms": 1000,
       "loop": 0,
       "description": "托腮歪头、眨眼后停留在疑问姿势，末帧停顿 1 秒后重播，无回正动作。",
-      "sha256": "e68581d7a00f5a01c51ec21bbc47c37a6c44526171ea2d2030bb29490b7662e0"
+      "sha256": "e68581d7a00f5a01c51ec21bbc47c37a6c44526171ea2d2030bb29490b7662e0",
+      "reconfirmed_date": "2026-10-22"
+    },
+    {
+      "id": "002",
+      "name": "蓄力怒吼",
+      "alias": "怒火",
+      "status": "approved",
+      "approved_date": "2026-10-22",
+      "file": "stickers/002-蓄力怒吼.gif",
+      "meaning": "怒吼",
+      "tags": [
+        "卖萌"
+      ],
+      "width": 240,
+      "height": 240,
+      "bytes": 123065,
+      "frames": 8,
+      "duration_ms": 1740,
+      "frame_durations_ms": [
+        70,
+        70,
+        70,
+        180,
+        50,
+        50,
+        50,
+        1200
+      ],
+      "final_hold_ms": 1200,
+      "loop": 0,
+      "description": "第一帧直接下蹲蓄力，随后举刀仰天怒吼，盾牌位于身体侧面，末帧停顿 1.2 秒后重播。",
+      "sha256": "858e9b4a9e2a5eabafb60fe752ba20ae5a19c1b9f6893200403de43f641624e9"
     }
   ]
 }

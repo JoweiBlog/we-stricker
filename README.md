@@ -4,7 +4,7 @@
 
 制作及提交前请遵循 [表情包制作基准](docs/sticker-standard.md)。
 
-正式版本：[V1.0 表情清单](releases/v1.0/README.md)（持续收录，目前 1 个已确认表情）。
+已确认文件专用目录：[confirmed](confirmed/README.md)。正式版本：[V1.0 表情清单](releases/v1.0/README.md)（持续收录，目前 2 个已确认表情）。
 
 ## 已确认表情
 
@@ -14,13 +14,11 @@
 
 [下载正式 GIF](releases/v1.0/stickers/001-歪头疑问.gif) · 240 × 240 像素 · 末帧停顿 1 秒。
 
-## 最新制作稿
+### 002 · 蓄力怒吼（怒火）
 
-### 蓄力怒吼 · 直接蓄力版
+![蓄力怒吼](confirmed/002-蓄力怒吼.gif)
 
-![蓄力怒吼](assets/sky-roar-sideguard/蓄力怒吼-直接蓄力版.gif)
-
-[下载当前 GIF](assets/sky-roar-sideguard/蓄力怒吼-直接蓄力版.gif) · 从蓄力开始，举刀仰天怒吼，侧面持盾，末帧停顿 1.2 秒。尚未确认纳入正式 V1.0。
+[下载正式 GIF](confirmed/002-蓄力怒吼.gif) · 从蓄力开始，举刀仰天怒吼，侧面持盾，末帧停顿 1.2 秒。2026-10-22 确认纳入正式 V1.0。
 
 ## 素材归档
 
@@ -30,7 +28,7 @@
 - [蓄力怒吼前版](assets/sky-roar-charge/)。
 - [侧盾修订及当前版本](assets/sky-roar-sideguard/)。
 
-各目录保留关键帧、历史 GIF、制作脚本与版本说明；正式确认文件单独保存于 `releases/v1.0/`，实验修订不会自动覆盖正式文件。
+各素材目录保留关键帧、历史 GIF、制作脚本与版本说明；已确认 GIF 单独保存于 `confirmed/`，并在 `releases/v1.0/` 归档相同副本，实验修订不会自动覆盖正式文件。
 
 ## 本地重新导出
 
