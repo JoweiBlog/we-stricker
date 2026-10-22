@@ -2,6 +2,8 @@
 
 「我的刀盾」表情包项目。
 
+发布交付请遵循 [微信表情专辑发布标准](docs/publishing-standard.md)。配置模板位于 [publishing](publishing/)，使用 `scripts/build_publication.py` 校验并生成单套表情 ZIP、介绍、配套图及发布清单；不自动发布平台。
+
 制作及提交前请遵循 [表情包制作基准](docs/sticker-standard.md)。
 
 已确认文件专用目录：[confirmed](confirmed/README.md)。正式版本：[V1.0 表情清单](releases/v1.0/README.md)（持续收录，目前 2 个已确认表情）。

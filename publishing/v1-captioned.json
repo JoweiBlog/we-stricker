@@ -1,0 +1,8 @@
+{
+  "id": "v1-captioned", "album_id": "my-sword-shield-v1", "title": "我的刀盾·日常篇（有文字版）",
+  "introduction": "圆滚滚的刀盾小战士，把勇气和柔软都装进日常。开心、委屈、害羞、犯困，每一种心情都有它陪你表达。",
+  "stickers_manifest": "exports/wechat-static-18/manifest.json",
+  "banner": "exports/wechat-banner/我的刀盾-详情页横幅-750x400.jpg",
+  "cover": "exports/wechat-cover/我的刀盾-封面-240x240.png",
+  "icon": "exports/wechat-chat-icon/我的刀盾-聊天页图标-50x50.png"
+}
