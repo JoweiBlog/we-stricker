@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "project": "我的刀盾",
+  "status": "in_progress",
+  "stickers": [
+    {
+      "id": "001",
+      "name": "歪头疑问",
+      "status": "approved",
+      "approved_date": "2026-10-21",
+      "file": "stickers/001-歪头疑问.gif",
+      "meaning": "疑问",
+      "tags": [
+        "卖萌"
+      ],
+      "width": 240,
+      "height": 240,
+      "bytes": 391566,
+      "frames": 18,
+      "motion_fps": 20,
+      "duration_ms": 2000,
+      "final_hold_ms": 1000,
+      "loop": 0,
+      "description": "托腮歪头、眨眼后停留在疑问姿势，末帧停顿 1 秒后重播，无回正动作。",
+      "sha256": "e68581d7a00f5a01c51ec21bbc47c37a6c44526171ea2d2030bb29490b7662e0"
+    }
+  ]
+}
