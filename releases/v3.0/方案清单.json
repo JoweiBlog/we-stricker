@@ -1,0 +1,210 @@
+{
+  "version": "3.0",
+  "theme": "刀盾小战士的电影名场面",
+  "status": "approved",
+  "no_caption_text": true,
+  "stickers": [
+    {
+      "id": "01",
+      "group": 1,
+      "meaning": "来战",
+      "movie_action_reference": "黄飞鸿",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "02",
+      "group": 1,
+      "meaning": "回眸",
+      "movie_action_reference": "大话西游",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "03",
+      "group": 1,
+      "meaning": "认真",
+      "movie_action_reference": "喜剧之王",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "04",
+      "group": 1,
+      "meaning": "得意",
+      "movie_action_reference": "唐伯虎点秋香",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "05",
+      "group": 1,
+      "meaning": "自由",
+      "movie_action_reference": "泰坦尼克号",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "06",
+      "group": 1,
+      "meaning": "躲开",
+      "movie_action_reference": "黑客帝国",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "07",
+      "group": 1,
+      "meaning": "淡定",
+      "movie_action_reference": "教父",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "08",
+      "group": 1,
+      "meaning": "开心",
+      "movie_action_reference": "雨中曲",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "09",
+      "group": 1,
+      "meaning": "狮吼功",
+      "movie_action_reference": "功夫（包租婆）",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "revision_note": "替换洛奇胜利动作：双爪叉腰、身体前探、张嘴狮吼，点缀小发卷与声浪。",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "10",
+      "group": 2,
+      "meaning": "警觉",
+      "movie_action_reference": "007",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "11",
+      "group": 2,
+      "meaning": "你好",
+      "movie_action_reference": "E.T.",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "12",
+      "group": 2,
+      "meaning": "等你",
+      "movie_action_reference": "阿甘正传",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "13",
+      "group": 2,
+      "meaning": "溜了",
+      "movie_action_reference": "夺宝奇兵",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "14",
+      "group": 2,
+      "meaning": "别吵",
+      "movie_action_reference": "侏罗纪公园",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "15",
+      "group": 2,
+      "meaning": "变一个",
+      "movie_action_reference": "哈利·波特",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "revision_note": "使用细长木制魔法杖与杖尖星光，替换原铁剑。",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "16",
+      "group": 2,
+      "meaning": "接招",
+      "movie_action_reference": "星球大战",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "17",
+      "group": 2,
+      "meaning": "守护",
+      "movie_action_reference": "指环王",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "18",
+      "group": 2,
+      "meaning": "稳住",
+      "movie_action_reference": "终结者2",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "approved_date": "2026-10-22"
+    }
+  ],
+  "revision": "包租婆狮吼功与魔法杖修订",
+  "approved_date": "2026-10-22"
+}

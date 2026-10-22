@@ -1,0 +1,444 @@
+{
+  "version": "3.0",
+  "theme": "刀盾小战士的电影名场面",
+  "status": "approved",
+  "no_caption_text": true,
+  "stickers": [
+    {
+      "id": "01",
+      "group": 1,
+      "meaning": "来战",
+      "movie_action_reference": "黄飞鸿",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "name": "来战",
+      "file": "stickers/01-来战.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 77958,
+      "source": "第三版-电影名场面-第一组无字九宫格.png",
+      "crop_region": [
+        0,
+        0,
+        437,
+        375
+      ],
+      "sha256": "aa22302d248d1ae603e4f66e4fc0bf82b9aa3b61d73dc2b237fbb1512db315cd",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "02",
+      "group": 1,
+      "meaning": "回眸",
+      "movie_action_reference": "大话西游",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "name": "回眸",
+      "file": "stickers/02-回眸.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 73863,
+      "source": "第三版-电影名场面-第一组无字九宫格.png",
+      "crop_region": [
+        437,
+        0,
+        875,
+        375
+      ],
+      "sha256": "ddaab841842dfb5802aaa2856fa3a9bd1d8b22b24fc763605341dc822fead44c",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "03",
+      "group": 1,
+      "meaning": "认真",
+      "movie_action_reference": "喜剧之王",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "name": "认真",
+      "file": "stickers/03-认真.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 71085,
+      "source": "第三版-电影名场面-第一组无字九宫格.png",
+      "crop_region": [
+        875,
+        0,
+        1312,
+        375
+      ],
+      "sha256": "0ebac27273156b2c46764e56433c7e04fd893232640e279061d54ce9fd9815af",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "04",
+      "group": 1,
+      "meaning": "得意",
+      "movie_action_reference": "唐伯虎点秋香",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "name": "得意",
+      "file": "stickers/04-得意.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 79004,
+      "source": "第三版-电影名场面-第一组无字九宫格.png",
+      "crop_region": [
+        0,
+        375,
+        437,
+        740
+      ],
+      "sha256": "3998b9a9469585b588163bb1e1ad5779fe2c3b513ddfcee818efc96d7aa7354d",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "05",
+      "group": 1,
+      "meaning": "自由",
+      "movie_action_reference": "泰坦尼克号",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "name": "自由",
+      "file": "stickers/05-自由.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 67006,
+      "source": "第三版-电影名场面-第一组无字九宫格.png",
+      "crop_region": [
+        437,
+        375,
+        875,
+        740
+      ],
+      "sha256": "517ca75387dc342f30a30eaf97f0486e28ac97771826a1f31b51761994572774",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "06",
+      "group": 1,
+      "meaning": "躲开",
+      "movie_action_reference": "黑客帝国",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "name": "躲开",
+      "file": "stickers/06-躲开.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 56790,
+      "source": "第三版-电影名场面-第一组无字九宫格.png",
+      "crop_region": [
+        875,
+        375,
+        1312,
+        740
+      ],
+      "sha256": "e64fdac056fd1bd9628d60c74f7d1d6af23d26da0a126607edad8c4665f20081",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "07",
+      "group": 1,
+      "meaning": "淡定",
+      "movie_action_reference": "教父",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "name": "淡定",
+      "file": "stickers/07-淡定.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 78353,
+      "source": "第三版-电影名场面-第一组无字九宫格.png",
+      "crop_region": [
+        0,
+        740,
+        437,
+        1199
+      ],
+      "sha256": "aa7d7625544654c1ac906b2114a94b850d3c1d7d0dbd4b1022f588813a48ddbb",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "08",
+      "group": 1,
+      "meaning": "开心",
+      "movie_action_reference": "雨中曲",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "name": "开心",
+      "file": "stickers/08-开心.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 81155,
+      "source": "第三版-电影名场面-第一组无字九宫格.png",
+      "crop_region": [
+        437,
+        740,
+        875,
+        1199
+      ],
+      "sha256": "92b67baf4f1dcf895d2d41e5b7652abab2f056f2f16a95fcd5f4e4529d3d3642",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "09",
+      "group": 1,
+      "meaning": "狮吼功",
+      "movie_action_reference": "功夫（包租婆）",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "revision_note": "替换洛奇胜利动作：双爪叉腰、身体前探、张嘴狮吼，点缀小发卷与声浪。",
+      "name": "狮吼功",
+      "file": "stickers/09-狮吼功.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 71477,
+      "source": "第三版-电影名场面-第一组无字九宫格.png",
+      "crop_region": [
+        875,
+        740,
+        1312,
+        1199
+      ],
+      "sha256": "77d85c2f9ae1056c3e81253e3f387a68fd2a6e1092545a0d6ea776dc342a8f33",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "10",
+      "group": 2,
+      "meaning": "警觉",
+      "movie_action_reference": "007",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "name": "警觉",
+      "file": "stickers/10-警觉.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 77625,
+      "source": "第三版-电影名场面-第二组无字九宫格.png",
+      "crop_region": [
+        0,
+        0,
+        437,
+        368
+      ],
+      "sha256": "50ba72fe0001b181dec7b480b84d933392e28584ad1e089f6a9f26d85d34c3f2",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "11",
+      "group": 2,
+      "meaning": "你好",
+      "movie_action_reference": "E.T.",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "name": "你好",
+      "file": "stickers/11-你好.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 71419,
+      "source": "第三版-电影名场面-第二组无字九宫格.png",
+      "crop_region": [
+        437,
+        0,
+        875,
+        368
+      ],
+      "sha256": "4460b607146cc474fa0db8a6af162e0dc5bb4b6965f230b0d3cdcb6443a440cf",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "12",
+      "group": 2,
+      "meaning": "等你",
+      "movie_action_reference": "阿甘正传",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "name": "等你",
+      "file": "stickers/12-等你.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 59999,
+      "source": "第三版-电影名场面-第二组无字九宫格.png",
+      "crop_region": [
+        875,
+        0,
+        1312,
+        368
+      ],
+      "sha256": "2f45bd2d353ae26aa254e45146f3afde79a28ba70c7f66fb368cdb48a2ec5183",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "13",
+      "group": 2,
+      "meaning": "溜了",
+      "movie_action_reference": "夺宝奇兵",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "name": "溜了",
+      "file": "stickers/13-溜了.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 63131,
+      "source": "第三版-电影名场面-第二组无字九宫格.png",
+      "crop_region": [
+        0,
+        368,
+        437,
+        760
+      ],
+      "sha256": "ef49ef0dff7b00a9958962eabf5946b2e26efba23ed7b6122c944a12c693b3d1",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "14",
+      "group": 2,
+      "meaning": "别吵",
+      "movie_action_reference": "侏罗纪公园",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "name": "别吵",
+      "file": "stickers/14-别吵.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 58529,
+      "source": "第三版-电影名场面-第二组无字九宫格.png",
+      "crop_region": [
+        437,
+        368,
+        910,
+        760
+      ],
+      "sha256": "5312fe1ab8f42fc73b8181b5e2d01a4d5b6452cdcbedbf9268fa54704c998fcf",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "15",
+      "group": 2,
+      "meaning": "变一个",
+      "movie_action_reference": "哈利·波特",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "revision_note": "使用细长木制魔法杖与杖尖星光，替换原铁剑。",
+      "name": "变一个",
+      "file": "stickers/15-变一个.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 67157,
+      "source": "第三版-电影名场面-第二组无字九宫格.png",
+      "crop_region": [
+        910,
+        368,
+        1312,
+        760
+      ],
+      "sha256": "e0fd09e146e698315d74065d2838b2c7b77e1771f490ab194cafb057942b8861",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "16",
+      "group": 2,
+      "meaning": "接招",
+      "movie_action_reference": "星球大战",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "name": "接招",
+      "file": "stickers/16-接招.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 66949,
+      "source": "第三版-电影名场面-第二组无字九宫格.png",
+      "crop_region": [
+        0,
+        760,
+        437,
+        1199
+      ],
+      "sha256": "b92dc35cb246fcc4ca4d11755570dff44d5bb9a5c8645169208b3d5b1e3159e2",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "17",
+      "group": 2,
+      "meaning": "守护",
+      "movie_action_reference": "指环王",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "name": "守护",
+      "file": "stickers/17-守护.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 80577,
+      "source": "第三版-电影名场面-第二组无字九宫格.png",
+      "crop_region": [
+        437,
+        760,
+        875,
+        1199
+      ],
+      "sha256": "0f6eb05661728f6afef5a85e4a9747e0f0ce221cb1fca34d167754b89fe41a62",
+      "approved_date": "2026-10-22"
+    },
+    {
+      "id": "18",
+      "group": 2,
+      "meaning": "稳住",
+      "movie_action_reference": "终结者2",
+      "tags": [
+        "卖萌"
+      ],
+      "status": "approved",
+      "name": "稳住",
+      "file": "stickers/18-稳住.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 77113,
+      "source": "第三版-电影名场面-第二组无字九宫格.png",
+      "crop_region": [
+        875,
+        760,
+        1312,
+        1199
+      ],
+      "sha256": "9f85d053f79cf0d40149019bc3e94eacfa84ae83fc5dca72ac652b09cc7217f8",
+      "approved_date": "2026-10-22"
+    }
+  ],
+  "approved_date": "2026-10-22",
+  "project": "我的刀盾"
+}
