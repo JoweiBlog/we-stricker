@@ -13,7 +13,8 @@ ROOT = Path(__file__).resolve().parents[1]
 MANUAL = ['角色、画风统一且各表情动作差异足够', '布局留白适量、无裁切或拉伸',
           '动态节奏流畅不卡顿', '横幅无文字、非白底、色彩明朗、有故事性',
           '封面为正面半身或全身、无多余文字装饰', '图标为清晰简洁正面头部、无方框',
-          '透明图边缘无白描边、锯齿或生硬直角']
+          '透明图边缘无白描边、锯齿或生硬直角',
+          '赞赏两图与表情风格一致、内容相关，引导语自然且无错误']
 
 
 def digest(path):
@@ -58,12 +59,14 @@ def validate_stickers(paths):
 
 def validate_asset(path, role):
     x = inspect_image(path)
-    size = {'banner': [750, 400], 'cover': [240, 240], 'icon': [50, 50]}[role]
-    formats = ('JPEG', 'PNG') if role == 'banner' else ('PNG',)
+    appreciation = role in ('appreciation_guide', 'appreciation_thanks')
+    size = {'banner': [750, 400], 'cover': [240, 240], 'icon': [50, 50],
+            'appreciation_guide': [750, 560], 'appreciation_thanks': [750, 750]}[role]
+    formats = ('JPEG', 'PNG', 'GIF') if appreciation else (('JPEG', 'PNG') if role == 'banner' else ('PNG',))
     errors, warnings = [], []
-    if x['size'] != size or x['format'] not in formats or x['animated'] or x['empty']:
-        errors.append(f'{role} 的格式、尺寸或非空静态要求不符。')
-    if x['transparent'] != (role != 'banner'):
+    if x['size'] != size or x['format'] not in formats or (x['animated'] and not appreciation) or x['empty']:
+        errors.append(f'{role} 的格式、尺寸或有效图像要求不符。')
+    if not appreciation and x['transparent'] != (role != 'banner'):
         errors.append(f'{role} 背景透明性不符合规范。')
     if x['bytes'] > (100000 if role == 'icon' else 500000):
         warnings.append(f'{role} 超出平台压缩提示阈值。')
@@ -86,6 +89,10 @@ def prepare(config_path, registry):
     errors, warnings = [], []
     if not intro or len(intro) > 80:
         errors.append('表情介绍须为 1–80 字符。')
+    appreciation_prompt = str(config.get('appreciation_prompt') or '').strip()
+    appreciation_count = len(re.findall(r'[\u3400-\u4dbf\u4e00-\u9fff\U00020000-\U0002fa1f]', appreciation_prompt))
+    if not 5 <= appreciation_count <= 15:
+        errors.append('赞赏引导语须为 5–15 个汉字，须单独填写，标点不计入汉字数。')
     mp = resolve(config['stickers_manifest'])
     items = json.loads(mp.read_text())['stickers']
     paths = [resolve(item['file'], mp.parent) for item in items]
@@ -93,7 +100,7 @@ def prepare(config_path, registry):
     errors += e
     warnings += w
     assets = {}
-    for role in ('banner', 'cover', 'icon'):
+    for role in ('banner', 'cover', 'icon', 'appreciation_guide', 'appreciation_thanks'):
         value = config.get(role)
         if not value:
             errors.append(f'缺少 {role} 素材，待制作并确认。')
@@ -114,7 +121,8 @@ def prepare(config_path, registry):
             registry[key] = album_id
         assets[role] = (p, meta)
     return {'config': config, 'intro': intro, 'items': items, 'paths': paths,
-            'entries': entries, 'assets': assets, 'errors': errors, 'warnings': warnings}
+            'entries': entries, 'assets': assets, 'errors': errors, 'warnings': warnings,
+            'appreciation_prompt': appreciation_prompt, 'appreciation_count': appreciation_count}
 
 
 def write_album(data, destination):
@@ -122,6 +130,8 @@ def write_album(data, destination):
     destination.mkdir(parents=True, exist_ok=True)
     (destination / '表情').mkdir()
     (destination / '表情介绍.txt').write_text(data['intro'] + '\n')
+    (destination / '赞赏').mkdir()
+    (destination / '赞赏' / '赞赏引导语.txt').write_text(data['appreciation_prompt'] + '\n')
     copied = []
     with (destination / '上传信息.csv').open('w', encoding='utf-8-sig', newline='') as f:
         writer = csv.writer(f, lineterminator='\n')
@@ -137,10 +147,11 @@ def write_album(data, destination):
     with ZipFile(destination / '表情合计.zip', 'w', compression=ZIP_DEFLATED) as z:
         for p in copied:
             z.write(p, p.name)
-    labels = {'banner': '横幅', 'cover': '封面', 'icon': '图标'}
+    labels = {'banner': '横幅', 'cover': '封面', 'icon': '图标',
+              'appreciation_guide': '赞赏/引导图', 'appreciation_thanks': '赞赏/致谢图'}
     for role, (source, _) in data['assets'].items():
         d = destination / labels[role]
-        d.mkdir()
+        d.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source, d / source.name)
     report = {'album_id': cfg['album_id'], 'title': cfg['title'],
               'automatic_status': 'blocked' if data['errors'] else 'passed',
@@ -148,10 +159,12 @@ def write_album(data, destination):
               'manual_review_status': 'pending', 'manual_review_items': MANUAL,
               'errors': data['errors'], 'warnings': data['warnings'],
               'introduction_length': len(data['intro']), 'stickers': data['entries'],
+              'appreciation_prompt': data['appreciation_prompt'],
+              'appreciation_prompt_chinese_count': data['appreciation_count'],
               'assets': {k: x[1] for k, x in data['assets'].items()}}
     (destination / '发布检查.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     text = [f"# {cfg['title']} · 发布清单", '', f"自动检查：{report['automatic_status']}；人工检查待确认。", '',
-            '## 表情介绍', '', data['intro'], '', '## 待补／错误', '']
+            '## 表情介绍', '', data['intro'], '', '## 赞赏引导语', '', data['appreciation_prompt'], '', '## 待补／错误', '']
     text += [f'- {s}' for s in data['errors']] or ['无自动错误；仍需人工检查。']
     text += ['', '## 压缩提示', ''] + ([f'- {s}' for s in data['warnings']] or ['无。'])
     text += ['', '## 人工确认', ''] + [f'- [ ] {s}' for s in MANUAL]

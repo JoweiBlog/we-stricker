@@ -3,6 +3,7 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
 import json
+from zipfile import ZipFile
 from PIL import Image
 
 spec = importlib.util.spec_from_file_location('publication', Path(__file__).resolve().parents[1] / 'scripts/build_publication.py')
@@ -28,6 +29,21 @@ class PublicationTests(unittest.TestCase):
         frames = [Image.new('RGB', (240, 240), c) for c in ['red', 'blue']]
         frames[0].save(p, save_all=True, append_images=frames[1:], duration=80, loop=loop)
         return p
+
+    def valid_config(self):
+        manifest = {'stickers': [{'file': p.name, 'name': str(i)} for i,p in enumerate(self.paths)]}
+        (self.root/'manifest.json').write_text(json.dumps(manifest))
+        Image.new('RGB',(750,400),'green').save(self.root/'banner.jpg')
+        cover = Image.new('RGBA',(240,240),(0,0,0,0))
+        cover.paste((120,80,40,255),(20,20,220,220))
+        cover.save(self.root/'cover.png')
+        cover.resize((50,50)).save(self.root/'icon.png')
+        Image.new('RGB',(750,560),'orange').save(self.root/'guide.jpg')
+        Image.new('RGB',(750,750),'gold').save(self.root/'thanks.jpg')
+        return {'id':'a','album_id':'album-a','title':'A','introduction':'介绍',
+                'stickers_manifest':'manifest.json','banner':'banner.jpg','cover':'cover.png','icon':'icon.png',
+                'appreciation_prompt':'给小战士加个鸡腿可好？',
+                'appreciation_guide':'guide.jpg','appreciation_thanks':'thanks.jpg'}
 
     def test_eight_unique_static_files_pass(self):
         errors, warnings, _ = module.validate_stickers(self.paths)
@@ -68,15 +84,7 @@ class PublicationTests(unittest.TestCase):
         previous = module.ROOT
         module.ROOT = self.root
         try:
-            manifest = {'stickers': [{'file': p.name, 'name': str(i)} for i,p in enumerate(self.paths)]}
-            (self.root/'manifest.json').write_text(json.dumps(manifest))
-            Image.new('RGB',(750,400),'green').save(self.root/'banner.jpg')
-            cover = Image.new('RGBA',(240,240),(0,0,0,0))
-            cover.paste((120,80,40,255),(20,20,220,220))
-            cover.save(self.root/'cover.png')
-            cover.resize((50,50)).save(self.root/'icon.png')
-            cfg = {'id':'a', 'album_id':'album-a','title':'A','introduction':'介绍',
-                   'stickers_manifest':'manifest.json','banner':'banner.jpg','cover':'cover.png','icon':'icon.png'}
+            cfg = self.valid_config()
             path = self.root/'config.json'
             path.write_text(json.dumps(cfg))
             registry = {}
@@ -91,6 +99,54 @@ class PublicationTests(unittest.TestCase):
             self.assertEqual(sum('另一专辑' in e for e in errors),2)
         finally:
             module.ROOT = previous
+
+    def test_appreciation_missing_or_wrong_dimensions_block(self):
+        previous = module.ROOT
+        module.ROOT = self.root
+        try:
+            cfg = self.valid_config()
+            cfg['appreciation_guide'] = None
+            cfg['appreciation_thanks'] = 'guide.jpg'  # Wrong dimensions for thanks.
+            cfg['appreciation_prompt'] = None
+            p = self.root/'config.json';p.write_text(json.dumps(cfg))
+            errors = module.prepare(p,{})['errors']
+            self.assertTrue(any('赞赏引导语' in e for e in errors))
+            self.assertTrue(any('缺少 appreciation_guide' in e for e in errors))
+            self.assertTrue(any('appreciation_thanks' in e for e in errors))
+        finally:
+            module.ROOT = previous
+
+    def test_appreciation_chinese_count_and_bundle_contents(self):
+        previous = module.ROOT
+        module.ROOT = self.root
+        try:
+            cfg = self.valid_config();p = self.root/'config.json'
+            for text, valid in [('甲'*5+'？！',True),('甲'*15+'！',True),('甲'*4+'！！',False),('甲'*16,False)]:
+                cfg['appreciation_prompt']=text;p.write_text(json.dumps(cfg))
+                data = module.prepare(p,{})
+                self.assertEqual(not data['errors'],valid)
+            cfg['appreciation_prompt']='给小战士加个鸡腿可好？';p.write_text(json.dumps(cfg))
+            data = module.prepare(p,{})
+            report = module.write_album(data,self.root/'bundle')
+            self.assertEqual(report['automatic_status'],'passed')
+            self.assertEqual(report['appreciation_prompt_chinese_count'],10)
+            out=self.root/'bundle'
+            self.assertEqual((out/'赞赏/赞赏引导语.txt').read_text().strip(),cfg['appreciation_prompt'])
+            self.assertTrue((out/'赞赏/引导图/guide.jpg').exists())
+            self.assertTrue((out/'赞赏/致谢图/thanks.jpg').exists())
+            with ZipFile(out/'表情合计.zip') as z:
+                self.assertEqual(len(z.namelist()),8)
+        finally:
+            module.ROOT = previous
+
+    def test_appreciation_animated_gif_and_transparency_are_allowed(self):
+        p=self.root/'guide.gif'
+        frames=[Image.new('RGB',(750,560),c) for c in ['red','blue']]
+        frames[0].save(p,save_all=True,append_images=frames[1:],duration=80,loop=0)
+        self.assertEqual(module.validate_asset(p,'appreciation_guide')[0],[])
+        im=Image.new('RGBA',(750,750),(150,100,80,255))
+        im.putpixel((0,0),(0,0,0,0));p=self.root/'thanks.png';im.save(p)
+        self.assertEqual(module.validate_asset(p,'appreciation_thanks')[0],[])
 
 
 if __name__ == '__main__':

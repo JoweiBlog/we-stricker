@@ -1,0 +1,13 @@
+{
+  "id": "new-album",
+  "album_id": "replace-with-unique-album-id",
+  "title": "填写专辑名称",
+  "introduction": "填写不超过八十字的表情介绍",
+  "stickers_manifest": "填写单品manifest的项目相对路径",
+  "banner": null,
+  "cover": null,
+  "icon": null,
+  "appreciation_prompt": null,
+  "appreciation_guide": null,
+  "appreciation_thanks": null
+}

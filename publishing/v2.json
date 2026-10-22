@@ -1,6 +1,13 @@
 {
-  "id": "v2", "album_id": "my-sword-shield-v2", "title": "我的刀盾·小战士的日常社交",
+  "id": "v2",
+  "album_id": "my-sword-shield-v2",
+  "title": "我的刀盾·小战士的日常社交",
   "introduction": "圆滚滚的小战士开启社交日常：抱抱、吃瓜、摸鱼、溜了，也会怕冷怕热、认真敬礼。带着刀盾，把每个小情绪都变得可爱。",
   "stickers_manifest": "releases/v2.0/manifest.json",
-  "banner": null, "cover": null, "icon": null
+  "banner": null,
+  "cover": null,
+  "icon": null,
+  "appreciation_prompt": null,
+  "appreciation_guide": null,
+  "appreciation_thanks": null
 }
