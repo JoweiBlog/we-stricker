@@ -1,0 +1,369 @@
+{
+  "purpose": "微信表情单品上传",
+  "format": "PNG",
+  "background": "white",
+  "stickers": [
+    {
+      "id": "01",
+      "name": "来了",
+      "meaning": "来了",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "01-来了.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 61556,
+      "source": "首套九宫格概念图.png",
+      "crop_region": [
+        0,
+        0,
+        437,
+        410
+      ],
+      "sha256": "e93acce93ba80f106aba19912dfe3a5da87a7de4dc196b2f629bb468f38629ad"
+    },
+    {
+      "id": "02",
+      "name": "收到",
+      "meaning": "收到",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "02-收到.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 64545,
+      "source": "首套九宫格概念图.png",
+      "crop_region": [
+        437,
+        0,
+        875,
+        410
+      ],
+      "sha256": "8a4829d3fe78990b6e12aadacec088a70886f3d3a8bce32c6ed20786bd6597e7"
+    },
+    {
+      "id": "03",
+      "name": "冲鸭",
+      "meaning": "冲鸭",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "03-冲鸭.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 64093,
+      "source": "首套九宫格概念图.png",
+      "crop_region": [
+        875,
+        0,
+        1312,
+        410
+      ],
+      "sha256": "85db394f34a3848b5111ab28e42917aaac6dc6eb5cef7b797cf36fea5a283978"
+    },
+    {
+      "id": "04",
+      "name": "委屈",
+      "meaning": "委屈",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "04-委屈.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 61348,
+      "source": "首套九宫格概念图.png",
+      "crop_region": [
+        0,
+        410,
+        400,
+        790
+      ],
+      "sha256": "60fd7d415739b6ea2befb1efa725f680207db208b06ffac6ff69ad35f09e6ec9"
+    },
+    {
+      "id": "05",
+      "name": "呜呜",
+      "meaning": "呜呜",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "05-呜呜.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 55855,
+      "source": "首套九宫格概念图.png",
+      "crop_region": [
+        400,
+        410,
+        910,
+        790
+      ],
+      "sha256": "e2defc98d1b955afe8f11aa1555c2b19d4e8a1857da170445509c82240561403"
+    },
+    {
+      "id": "06",
+      "name": "啊",
+      "meaning": "啊",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "06-啊.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 62420,
+      "source": "首套九宫格概念图.png",
+      "crop_region": [
+        910,
+        410,
+        1312,
+        790
+      ],
+      "sha256": "459098a4775c240c6260a17b8f69347f0db0ac97c76dfb9cd5bba04119ecc93d"
+    },
+    {
+      "id": "07",
+      "name": "累了",
+      "meaning": "累了",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "07-累了.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 70661,
+      "source": "首套九宫格概念图.png",
+      "crop_region": [
+        0,
+        790,
+        420,
+        1199
+      ],
+      "sha256": "1d68e0fe93fbba3af286850c6b9019178c6ad339d09db0028c8788ad4e29fb46"
+    },
+    {
+      "id": "08",
+      "name": "爱你",
+      "meaning": "爱你",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "08-爱你.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 72600,
+      "source": "首套九宫格概念图.png",
+      "crop_region": [
+        420,
+        790,
+        875,
+        1199
+      ],
+      "sha256": "961d0e919f4a8794333eb264948ec369f5d0d423209ca2cddfacd273ce4640cc"
+    },
+    {
+      "id": "09",
+      "name": "晚安",
+      "meaning": "晚安",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "09-晚安.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 73718,
+      "source": "首套九宫格概念图.png",
+      "crop_region": [
+        875,
+        790,
+        1312,
+        1199
+      ],
+      "sha256": "0911fec5f6b9d9fd25f09252d2f9a6b5a3b8b84ec8437278c4615ebe6550cd39"
+    },
+    {
+      "id": "10",
+      "name": "得意",
+      "meaning": "得意",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "10-得意.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 66453,
+      "source": "第二套九宫格静态衍生图.png",
+      "crop_region": [
+        0,
+        0,
+        437,
+        410
+      ],
+      "sha256": "9d03a6c2578809b5891523818e79d6ea91149f68016704d8039fdf32d7fec7c0"
+    },
+    {
+      "id": "11",
+      "name": "害羞",
+      "meaning": "害羞",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "11-害羞.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 63562,
+      "source": "第二套九宫格静态衍生图.png",
+      "crop_region": [
+        437,
+        0,
+        875,
+        410
+      ],
+      "sha256": "9cf237e5daba98dcccf4c5bbc8e1ca2ff7cc68a31366732d00110069aca38636"
+    },
+    {
+      "id": "12",
+      "name": "震惊",
+      "meaning": "震惊",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "12-震惊.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 64547,
+      "source": "第二套九宫格静态衍生图.png",
+      "crop_region": [
+        875,
+        0,
+        1312,
+        410
+      ],
+      "sha256": "7b90217f36f93a7d5186f283c8561a1f09a6b295068cb4ae9d4c5d1d5bd84cc3"
+    },
+    {
+      "id": "13",
+      "name": "嫌弃",
+      "meaning": "嫌弃",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "13-嫌弃.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 66147,
+      "source": "第二套九宫格静态衍生图.png",
+      "crop_region": [
+        0,
+        410,
+        437,
+        785
+      ],
+      "sha256": "3a5991612adbe67ec88205e291656a76c0c301284349d5452afb2471db7e6344"
+    },
+    {
+      "id": "14",
+      "name": "生气",
+      "meaning": "生气",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "14-生气.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 67107,
+      "source": "第二套九宫格静态衍生图.png",
+      "crop_region": [
+        437,
+        410,
+        875,
+        785
+      ],
+      "sha256": "73ec6efb9b913035df6904bd47f25a5cb0e96496fbfae353d74087677e5b97b7"
+    },
+    {
+      "id": "15",
+      "name": "期待",
+      "meaning": "期待",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "15-期待.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 63728,
+      "source": "第二套九宫格静态衍生图.png",
+      "crop_region": [
+        875,
+        410,
+        1312,
+        785
+      ],
+      "sha256": "22c171bcb5a6d236ae482a34a1eae37652af1ed40a43f0940ba819c5864c7abf"
+    },
+    {
+      "id": "16",
+      "name": "无语",
+      "meaning": "无语",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "16-无语.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 72807,
+      "source": "第二套九宫格静态衍生图.png",
+      "crop_region": [
+        0,
+        785,
+        437,
+        1199
+      ],
+      "sha256": "563f3a1e5dd618c677788a418dc5f9885f88113f6fdd13db0ea2b859e4aa4d2e"
+    },
+    {
+      "id": "17",
+      "name": "加油",
+      "meaning": "加油",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "17-加油.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 75689,
+      "source": "第二套九宫格静态衍生图.png",
+      "crop_region": [
+        437,
+        785,
+        875,
+        1199
+      ],
+      "sha256": "f475a4cce38d33fa28ac8e9dd31ff88f65bd1410fd5865b5583f091e6fff068f"
+    },
+    {
+      "id": "18",
+      "name": "谢谢",
+      "meaning": "谢谢",
+      "tags": [
+        "卖萌"
+      ],
+      "file": "18-谢谢.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 73389,
+      "source": "第二套九宫格静态衍生图.png",
+      "crop_region": [
+        875,
+        785,
+        1312,
+        1199
+      ],
+      "sha256": "acca2088514d7ed7383f08163af426d163d76ab6fc27738e0c1b85abef2eaf34"
+    }
+  ],
+  "status": "approved",
+  "approved_date": "2026-10-22"
+}
